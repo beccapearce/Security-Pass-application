@@ -1,0 +1,31 @@
+{
+  "_id": "page.workdetails",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.workdetails--text.auto_name__3",
+      "_type": "text",
+      "label": "What is your work email address?",
+      "name": "auto_name__3"
+    },
+    {
+      "_id": "page.workdetails--number.auto_name__4",
+      "_type": "number",
+      "label": "What is your work telephone number?",
+      "name": "auto_name__4",
+      "validation": {
+        "maximum": 99999999999,
+        "minimum": 111111111,
+        "required": false
+      },
+      "widthClassInput": "10"
+    }
+  ],
+  "heading": "Work details",
+  "sectionHeading": "Applicant's details",
+  "url": "workdetails"
+}
